@@ -4,7 +4,7 @@ import Home from '../../pages/Home/Home';
 const Header = () => {
     return (
         <div>
-            <Home></Home>
+
         </div>
     );
 };
