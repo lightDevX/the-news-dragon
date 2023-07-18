@@ -14,7 +14,7 @@ const Root = () => {
                     <div className=' col-span-3 bg-red-300'>
                         <LeftNav></LeftNav>
                     </div>
-                    <div className="col-span-6 bg-cyan-200">
+                    <div className="col-span-6 px-4">
                         <Outlet></Outlet>
                     </div>
                     <div className="col-span-3 bg-orange-300">
