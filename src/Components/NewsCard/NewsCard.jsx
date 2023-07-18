@@ -68,19 +68,19 @@ const NewsCard = ({ news }) => {
                     </Typography>
                 </CardBody>
             </Card> */}
-            <Card className="w-full mx-auto mb-5 max-w-[26rem] shadow-lg">
+            <Card className="w-full mx-auto mb-5 mt-2 max-w-[26rem] shadow-lg">
                 <CardHeader floated={false}>
                     <div className="mx-0 flex items-center gap-4 pt-1 px-2">
                         <Avatar
                             size="lg"
                             variant="circular"
-                            src={author.img}
+                            src={author?.img}
                             alt="tania andrew"
                         />
                         <div className="flex w-full flex-col gap-0.5">
                             <div className="flex items-center justify-between">
                                 <Typography variant="h5">
-                                   {author.name}
+                                   {author?.name}
                                 </Typography>
                                 <div className="5 flex items-center gap-0">
                                     <StarIcon className="h-5 w-5 text-yellow-700" />
@@ -90,7 +90,7 @@ const NewsCard = ({ news }) => {
                                     <StarIcon className="h-5 w-5 text-yellow-700" />
                                 </div>
                             </div>
-                            <Typography>{author.published_date}</Typography>
+                            <Typography>{author?.published_date}</Typography>
                         </div>
                     </div>
                     <img
